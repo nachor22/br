@@ -18,11 +18,16 @@ email: br@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Nos dedicamos a la arquitectura
   al diseño y bla bla bla
-baseurl: "/br" # the subpath of your site, e.g. /blog
-url: "https://nachor22.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: #"/br" # the subpath of your site, e.g. /blog
+url: #"https://nachor22.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: br
 instagram_username:  br
 facebook_username:  br
+
+header_pages:
+  - proyectos.md
+  - nosotros.md
+  - contacto.md
 
 # Build settings
 markdown: kramdown
